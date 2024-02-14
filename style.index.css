@@ -1,3 +1,41 @@
+.resolucion {
+    width: 99% ;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+/* Movil */
+@media (max-width: 767px) {
+    #desktop {
+        display: none;
+        ;
+    }
+    #tablet {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 990px) {
+    #desktop {
+        display: none;
+    }
+    #movil {
+        display: none;
+    }
+}
+
+/* Escritorio */
+@media (min-width: 991px) {
+    #tablet {
+        display: none;
+    }
+    #movil {
+        display: none;
+    }
+}
+
 html {
     font-family: 'Sixtyfour', sans-serif;
 }
@@ -123,4 +161,37 @@ a {
 a:hover {
     background-image: url('images/2847521922.jpg');
     background-size: 1000px;
+}
+
+::-webkit-scrollbar {
+    width: 25px;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid  rgb(78, 0, 214);
+    box-shadow: 0 0 5px 5px rgba(0, 3, 205, 0.708) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-image: url(images/glass_of_juice-wallpaper-2560x960.jpg);
+}
+
+.TextoEpicardo {
+    color: rgba(0, 0, 0, 0);
+    background-image: url('images/white\ neon.jpg');
+    background-size: 30px;
+    background-position-y: center;
+    background-clip: text;
+    font-size: 150px;
+    text-align: center;
+}
+
+#Video3 {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    padding: 25%;
+    align-items: center;
+    display: block;
 }
