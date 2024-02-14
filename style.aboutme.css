@@ -1,0 +1,172 @@
+html {
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+body {
+    background-image:  url('images/lofi\ moon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-color: rgba(252, 0, 0, 0);
+}
+
+.Titulo {
+    background: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    margin-left: 900px;
+    font-size: 500px;
+    background-color:rgba(15, 16, 16, 0.053);
+    padding: 15%;
+    background-size: 500px;
+}
+
+.texto {
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    background-image: url('images/parrafo2.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-clip: text;
+}
+
+.Subtitulo {
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    background-image: url('images/parrafo2.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-clip: text;
+}
+
+.Parrafo {
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 20;
+    padding: 0.25rem 0;
+    background-image: url('images/parrafo1.webp');
+    background-size: 100px;
+    background-position-y: top;
+    background-clip: text;
+}
+
+.Parrafo:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(109, 223, 255);
+}
+
+.Parrafo2 {
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 20;
+    padding: 0.25rem 0;
+    background-image: url('images/parrafo1.webp');
+    background-size: 300px;
+    background-position-y: top;
+    background-clip: text;
+}
+
+.Parrafo2:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(109, 223, 255);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left:  5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1 {
+    color:white;
+    font-size: 45px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    background-image: url('images/2847521922.jpg');
+    background-size: cover;
+    background-position-y: top;
+    background-clip: text;
+}
+
+a:hover {
+    background-image: url('images/Smiley-Face-Neon-sign-purple-800x800.webp');
+    background-size: 1000px;
+}
+
+a img {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20;
+    display: flex;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+a img:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(109, 223, 255);
+}
+
+.Imagen2 {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20;
+    display: flex;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.Imagen2:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(109, 223, 255);
+}
+
+.Correo {
+    background-image: url('images/white\ neon.jpg');
+    background-size: 300px;
+    background-position-y: center;
+    background-clip: text;
+    font-family: 'Bungee';
+    font-size: 40px;
+}
+
+.Agradecimiento {
+    color: rgba(0, 0, 0, 0);
+    background-image: url('images/white\ neon.jpg');
+    background-size: 30px;
+    background-position-y: center;
+    background-clip: text;
+    font-size: 60px;
+}
+
+::-webkit-scrollbar {
+    width: 25px;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid  rgb(78, 0, 214);
+    box-shadow: 0 0 5px 5px rgba(0, 3, 205, 0.708) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-image: url(images/glass_of_juice-wallpaper-2560x960.jpg);
+}

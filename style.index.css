@@ -1,0 +1,126 @@
+html {
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+body {
+    background-image:  url('images/443184.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-color: rgba(252, 0, 0, 0);
+}
+
+.Titulo {
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 500px;
+    background-color:rgba(15, 16, 16, 0.053);
+    padding: 15%;
+    background-size: 500px;
+}
+
+.texto {
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    background-image: url('images/Smiley-Face-Neon-sign-purple-800x800.webp');
+    background-size: cover;
+    background-position-y: top;
+    background-clip: text;
+}
+
+.Subtitulo {
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    background-image: url('images/Smiley-Face-Neon-sign-purple-800x800.webp');
+    background-size: cover;
+    background-position-y: bottom;
+    background-clip: text;
+}
+
+.Parrafo {
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 20;
+    padding: 0.25rem 0;
+    background-image: url('images/2847521922.jpg');
+    background-size: 4000px;
+    background-position-y: top;
+    background-clip: text;
+}
+
+.Parrafo:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(78, 0, 214);
+}
+
+#Video1 {
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    padding: 25%;
+}
+
+.Parrafo2 {
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 20;
+    padding: 0.25rem 0;
+    background-image: url('images/2847521922.jpg');
+    background-size: 2000px;
+    background-position-y: top;
+    background-clip: text;
+}
+
+.Parrafo2:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(78, 0, 214);
+}
+
+#Video2 {
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    padding: 25%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left:  5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1 {
+    color:white;
+    font-size: 45px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    background-image: url('images/Smiley-Face-Neon-sign-purple-800x800.webp');
+    background-size: cover;
+    background-position-y: top;
+    background-clip: text;
+}
+
+a:hover {
+    background-image: url('images/2847521922.jpg');
+    background-size: 1000px;
+}
