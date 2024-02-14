@@ -1,3 +1,41 @@
+.resolucion {
+    width: 99% ;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+/* Movil */
+@media (max-width: 767px) {
+    #desktop {
+        display: none;
+        ;
+    }
+    #tablet {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 990px) {
+    #desktop {
+        display: none;
+    }
+    #movil {
+        display: none;
+    }
+}
+
+/* Escritorio */
+@media (min-width: 991px) {
+    #tablet {
+        display: none;
+    }
+    #movil {
+        display: none;
+    }
+}
+
 html {
     font-family: 'Sixtyfour', sans-serif;
 }
@@ -170,3 +208,4 @@ a img:hover {
     border-radius: 3px;
     background-image: url(images/glass_of_juice-wallpaper-2560x960.jpg);
 }
+
