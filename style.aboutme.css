@@ -41,13 +41,24 @@ html {
 }
 
 body {
-    background-image:  url('images/lofi\ moon.jpg');
+    background-image:  url('images/benefits-of-working-from-home.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     min-height: 100vh;
     background-color: rgba(252, 0, 0, 0);
+}
+
+.background {
+    background-image:  url('images/benefits-of-working-from-home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-color: rgba(252, 0, 0, 0);
+    filter: blur(5px);
 }
 
 .Titulo {
@@ -208,4 +219,3 @@ a img:hover {
     border-radius: 3px;
     background-image: url(images/glass_of_juice-wallpaper-2560x960.jpg);
 }
-
